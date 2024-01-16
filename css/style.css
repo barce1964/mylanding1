@@ -573,6 +573,138 @@ h1 .text-wrapper:nth-of-type(2) .text{
 
 
 
+.serv {
+    position: static;
+    margin-top: 20px;
+}
+
+.info-section {
+    margin: 20px auto;
+    margin-top: 10px;
+    height: 680;
+    border-radius: 10px;
+    padding: 50px 0 50px 20px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.8);
+}
+
+.info-header-srv {
+    width: 100%;
+    height: 50px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+}
+
+.info-header-tab-srv {
+    color: #192655;
+    font-family: 'Montserrat 500';
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.info-header-tab-srv:after {
+    content: '';
+    display: block;
+    width: 0%;
+    height: 3px;
+    background-color: #192655;
+    margin-top: 4px;
+    -webkit-transition: 0.4s;
+            transition: 0.4s;
+}
+
+.info-header-tab-active-srv:after {
+    content: '';
+    display: block;
+    width: 60%;
+    height: 3px;
+    background-color: #192655;
+    margin-top: 4px;
+}
+
+.info-header-tab-srv:hover:after {
+    width: 60%;
+}
+
+.info-tabcontent-srv {
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 50px;
+    -webkit-transition: 0.3s;
+            transition: 0.3s;
+}
+
+.description-text-srv {
+    margin: 0 auto;
+    margin-top: 30px;
+    color: #192655;
+    font-family: 'Montserrat 300';
+    font-size: 16px;
+    line-height: 1.15;
+    padding-right: 25px;
+    width: 1050px;
+}
+
+.fade {
+    opacity: 1;
+}
+
+.info-srv .hide {
+    display: none;
+}
+
+.blink {
+    font-size: 18px;
+    font-weight: 700;
+    -webkit-animation: blink 2s linear infinite;
+    animation: blink 2s linear infinite;
+}
+  
+@-webkit-keyframes blink {
+    0% { color: rgba(0, 255, 0, 1); }
+    50% { color: rgba(255, 255, 0, 1); }
+    100% { color: rgba(0, 255, 0, 1); }
+}
+  
+@keyframes blink {
+    0% { color: rgba(0, 255, 0, 1); }
+    50% { color: rgba(255, 255, 0, 1); }
+    100% { color: rgba(0, 255, 0, 1); }
+}
+
+.blink1 {
+    font-size: 18px;
+    -webkit-animation: blink1 4s linear infinite;
+    animation: blink1 4s linear infinite;
+}
+
+@-webkit-keyframes blink1 {
+    0% { color: rgba(255, 0, 0, 1); }
+    50% { color: rgba(255, 0, 255, 1); }
+    100% { color: rgba(255, 0, 0, 1); }
+}
+  
+@keyframes blink1 {
+    0% { color: rgba(255, 0, 0, 1); }
+    50% { color: rgba(255, 0, 255, 1); }
+    100% { color: rgba(255, 0, 0, 1); }
+}
+
+.price {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+
+
 .thin {
     margin-left: 4em;
     margin-top: 2em;

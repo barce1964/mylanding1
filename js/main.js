@@ -16,17 +16,6 @@ $(document).ready(function(){
 
 })
 
-// $(document).ready(function(){
-//     $('.header').height($(window).height());
-   
-//     $(".contact-link").click(function(){
-//         $("body,html").animate({
-//             scrollTop:$("#" + $(this).data('value')).offset().top
-//         },1000)
-//     })
-   
-// })
-
 new WOW().init();
 
 const menu = document.querySelector('.menu'),
@@ -62,6 +51,19 @@ function showTabContent(b) {
     if (tabContent[b].classList.contains('hide')) {
         tabContent[b].classList.remove('hide');
         tab[b].classList.add('info-header-tab-active-srv');
+        var h;
+        if (b == 0) {
+            h = '680px';
+        } else if (b == 1) {
+            h = '460px';
+        } else if (b == 2) {
+            h = '550px';
+        } else if (b == 3) {
+            h = '490px';
+        } else {
+            h = '550px';
+        }
+        $(".info-section").animate({height: h}, 1500 );
     }
 }
 
@@ -77,10 +79,6 @@ info.addEventListener('click', function(event) {
         }
     }
 });
-
-// $(document).ready(function(){
-//     $("#slider").owlCarousel();
-// });
 
 var owl = $('#slider');
 owl.owlCarousel({
@@ -108,7 +106,6 @@ owl.owlCarousel({
             items: 6
         }
     },
-    // navText: ["<img src='../img/icon/nav/prev.png'>", "<img src='../img/icon/nav/next.png'>"]
     navText: [
         '<svg width="35" height="20" viewBox="0 0 24 24"><path d="M16.67 0l2.83 2.829-9.339 9.175 9.339 9.167-2.83 2.829-12.17-11.996z"/></svg>',
         '<svg width="35" height="20" viewBox="0 0 24 24"><path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z"/></svg>'
