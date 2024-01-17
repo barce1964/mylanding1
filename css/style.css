@@ -131,7 +131,7 @@ a {
 .nav-logo {
     margin-top: 2px;
     margin-left: 100px;
-    height: 36px;
+    height: 32px;
 }
 
 .nav-link {
@@ -417,8 +417,8 @@ h1 .text-wrapper:nth-of-type(2) .text{
     color: #F3F0CA;
     font-size: 20px;
     transition: .5s;
-    -webkit-animation: btn-con 5s forwards;
-            animation: btn-con 5s forwards;
+    -webkit-animation: btn-con 7s forwards;
+            animation: btn-con 7s forwards;
 }
 
 .f-btn:hover {
@@ -427,13 +427,13 @@ h1 .text-wrapper:nth-of-type(2) .text{
 
 @keyframes btn-con {
     from {
-        margin-left: 2400px;
+        opacity: 0;
     }
 }
 
 @-webkit-keyframes btn-con {
     from {
-        margin-left: 2400px;
+        opacity: 0;
     }
 }
 
@@ -471,9 +471,8 @@ h1 .text-wrapper:nth-of-type(2) .text{
 .header-section {
     position: static;
     color:#192655;
-    /* font-family: 'Montserrat 900'; */
     font-size: 48px;
-    margin: 5px auto;
+    margin: 40px auto;
     -webkit-animation: header_s 3s;
     animation: header_s 3s;
 }
@@ -533,7 +532,7 @@ h1 .text-wrapper:nth-of-type(2) .text{
     display: block;
     color: #192655;
     position: absolute;
-    left: 20px;
+    left: 120px;
 }
 
 .about .desc {
@@ -711,11 +710,16 @@ h1 .text-wrapper:nth-of-type(2) .text{
 }
 
 .portfolio img {
-     height: 15rem;
-     width: 85%;
-     margin: 1em;
+     height: 200px;
+     width: 300px;
+     margin: 20px;
+     border-radius: 10px;
+     transition: all 1s;
 }
 
+.portfolio img:hover {
+    transform: scale(1.2);
+}
 
 
 
@@ -734,6 +738,76 @@ h1 .text-wrapper:nth-of-type(2) .text{
     height: 100%;
     width: 100%;
 }
+
+
+
+
+.txt-rem {
+    font-family: 'Montserrat 600';
+    color: #3876BF;
+}
+
+.rem-section {
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: auto;
+}
+
+
+
+
+.benefit-section {
+    height: 1050px;
+    margin: 10px auto;
+    padding: 20px 0 50px 20px;
+}
+
+.benefit-txt {
+    display: inline-block;
+    width: 350px;
+    height: auto;
+    font-family: 'Montserrat 300';
+    font-size: 16px;
+    color: #192655;
+    padding: 10px;
+}
+
+.benefit-txt-left {
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #192655;
+    text-align: center;
+    margin-left: 150px;
+    transition: all 1s;
+}
+
+.benefit-txt-left:hover {
+    color: #3876BF;
+    background-color: #E1AA74;
+    transform: skewY(-10deg);
+}
+
+.benefit-txt-right {
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #192655;
+    text-align: center;
+    margin-left: 600px;
+    transition: all 1s;
+}
+
+.benefit-txt-right:hover {
+    color: #3876BF;
+    background-color: #E1AA74;
+    transform: skewY(10deg);
+}
+
+.p-txt {
+    padding-top: 15px;
+}
+
 
 
 
