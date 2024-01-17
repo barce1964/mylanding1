@@ -35,6 +35,9 @@
                         <a class="nav-link" data-value="benefit" href="#">Ваша выгода</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" data-value="skills" href="#">Навыки</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" data-value="contacts" href="#">Контакты</a>
                     </li>
                 </ul>
@@ -342,6 +345,76 @@
                                 бесплатную техническую поддержку.
                             </p>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="skills" id="skills">
+            <h2 class="text-center header-section wow">Мои ключевые навыки</h2>
+            <div class="container">
+                <div class="skills-section">
+                    <div id="btn1" class="btn-skills">Программирование</div>
+                    <div class="div-class">
+                        <b>JournalDev</b><br>jQuery SlideToggle
+                    </div>
+                    <div id="textMsg"></div>
+                    <div id="btn1" class="btn-skills">Программирование</div>
+                    <div class="div-class">
+                        <b>JournalDev</b><br>jQuery SlideToggle
+                    </div>
+                    <div id="textMsg"></div>
+                    <div id="btn1" class="btn-skills">Программирование</div>
+                    <div class="div-class">
+                        <b>JournalDev</b><br>jQuery SlideToggle
+                    </div>
+                    <div id="textMsg"></div>
+                    <div id="btn1" class="btn-skills">Программирование</div>
+                    <div class="div-class">
+                        <b>JournalDev</b><br>jQuery SlideToggle
+                    </div>
+                    <div id="textMsg"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="contacts" id="contacts">
+            <div class="container">
+              <h2 class="text-center header-section wow">Контакты</h2>
+                <div class="row">
+                    <!--левая часть-->
+                    <div class="col-lg-8 col-md-8 col-sm-12">
+                        <div class="email wow">
+                            <div class="letter"></div>
+                            <div class="sender">
+                                <form enctype="multipart/form-data" method="post" class="frm-sender" id="form" onsubmit="submitForm(event)" action="php/send.php">
+                                    <table id="table-frm">
+                                        <tr>
+                                            <td align="right"><label for="name-frm" class="label-frm">Имя:</label></td>
+                                            <td><input id="name-frm" class="input-frm" name="name" required placeholder="Ваше имя" type="text" oninput="testInput()"></td>
+                                        </tr>
+                                        <tr>
+                                            <td align="right"><label for="email-frm" class="label-frm">Email:</label></td>
+                                            <td><input id="email-frm" class="input-frm" name="email" required placeholder="Ваш e-mail" type="email" oninput="testInput()"></td>
+                                        </tr>
+                                        <tr>
+                                            <td align="right"><label for="phone-frm" class="label-frm">Email:</label></td>
+                                            <td><input id="phone-frm" class="input-frm" name="phone" required placeholder="Ваш телефон" type="tel" oninput="testInput()"></td>
+                                        </tr>
+                                        <tr style="height: 1em;"><td></td><td></td></tr>
+                                        <tr>
+                                            <td align="center" colspan="2"><button class="button button_sabmit btn f-btn" id="btn-frm" disabled>Отправить запрос</button></td>
+                                        </tr>
+                                    </table>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <!--правая часть-->
+                    <div class="col-lg-4 col-md-4 col-sm-12 social">
+                        <a href="https://vk.com/id137732996" target="_blank"><div class="col-lg-1 col-md-1 col-sm-1 social-icon vk wow"></div></a>
+                        <a href="https://t.me/AlexanderTarayev" target="_blank"><div class="col-lg-1 col-md-1 col-sm-1 wow social-icon telegram"></div></a>
+                        <a href="https://wa.me/77771210112" target="_blank"><div class="col-lg-1 col-md-1 col-sm-1 social-icon whatsapp wow"></div></a>
                     </div>
                 </div>
             </div>

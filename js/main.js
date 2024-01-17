@@ -183,18 +183,23 @@ function testInput() {
     }
 }
 
-// const menu = document.querySelector('.navbar-nav'),
-//     menuItem = document.querySelectorAll('.nav-item'),
-//     hamburger = document.querySelector('.hamburger');
 
-//     hamburger.addEventListener('click', () => {
-//         hamburger.classList.toggle('hamburger_active');
-//         menu.classList.toggle('menu_active');
+var bSkills = document.querySelectorAll('.btn-skills');
+var dClass = document.querySelectorAll('.div-class');
+var sec = document.querySelector('.skills-section');
+
+// $(document).ready(function(){
+//     $(".btn-skills").click(function(){
+//         $(".divClass").slideToggle(1500);
 //     });
+// });
 
-//     menuItem.forEach(item => {
-//         item.addEventListener('click', () => {
-//             hamburger.classList.toggle('hamburger_active');
-//             menu.classList.toggle('menu_active');
-//         })
-//     })
+sec.addEventListener('click', function(event) {
+    var target = event.target;
+    for(var i = 0; i < bSkills.length; i++) {
+        if (target == bSkills[i]) {
+            console.log('test', i);
+            break;
+        }
+    }
+});
