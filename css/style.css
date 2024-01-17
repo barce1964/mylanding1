@@ -780,6 +780,22 @@ h1 .text-wrapper:nth-of-type(2) .text{
     text-align: center;
     margin-left: 150px;
     transition: all 1s;
+    -webkit-animation: left-benefit 3s forwards;
+    animation: left-benefit 3s forwards;
+}
+
+@keyframes left-benefit {
+    from {
+        margin-left: -400px;
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes left-benefit {
+    from {
+        margin-left: -400px;
+        opacity: 0;
+    }
 }
 
 .benefit-txt-left:hover {
@@ -796,6 +812,22 @@ h1 .text-wrapper:nth-of-type(2) .text{
     text-align: center;
     margin-left: 600px;
     transition: all 1s;
+    -webkit-animation: right-benefit 3s forwards;
+    animation: right-benefit 3s forwards;
+}
+
+@keyframes right-benefit {
+    from {
+        margin-left: 110vw;
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes right-benefit {
+    from {
+        margin-left: 110vw;
+        opacity: 0;
+    }
 }
 
 .benefit-txt-right:hover {
