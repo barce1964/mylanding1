@@ -187,19 +187,30 @@ function testInput() {
 var bSkills = document.querySelectorAll('.btn-skills');
 var dClass = document.querySelectorAll('.div-class');
 var sec = document.querySelector('.skills-section');
+let k = [];
 
-// $(document).ready(function(){
-//     $(".btn-skills").click(function(){
-//         $(".divClass").slideToggle(1500);
-//     });
-// });
+for(var j = 0; j < bSkills.length; j++) {
+    k[j] = false;
+}
 
 sec.addEventListener('click', function(event) {
     var target = event.target;
     for(var i = 0; i < bSkills.length; i++) {
         if (target == bSkills[i]) {
-            console.log('test', i);
-            break;
+            if (k[i]) {
+                $('#txt' + i).slideUp(1500);
+                k[i] = false;
+            } else {
+                $('#txt' + i).slideDown(1500);
+                k[i] = true;
+                for(var j = 0; j < bSkills.length; j++) {
+                    if (i != j) {
+                        k[j] = false;
+                    }
+                }
+            }
+        } else {
+            $('#txt' + i).slideUp(1500);
         }
     }
 });

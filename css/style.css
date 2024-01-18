@@ -417,12 +417,15 @@ h1 .text-wrapper:nth-of-type(2) .text{
     color: #F3F0CA;
     font-size: 20px;
     transition: .5s;
-    -webkit-animation: btn-con 7s forwards;
-            animation: btn-con 7s forwards;
 }
 
 .f-btn:hover {
     background-position: 0 0;
+}
+
+.btn-contact {
+    -webkit-animation: btn-con 7s forwards;
+            animation: btn-con 7s forwards;
 }
 
 @keyframes btn-con {
@@ -809,17 +812,24 @@ h1 .text-wrapper:nth-of-type(2) .text{
 }
 
 
+.skills-section {
+    margin: 0 auto;
+    width: 620px;
+    padding: 0 10px;
+    border-radius: 10px;
+    border:#E1AA74 solid 2px;
+}
+
 .btn-skills {
     margin: 0 auto;
     height: 40px;
-    width: 500px;
+    width: 600px;
     cursor: pointer;
     background-color: #F3F0CA;
-    font-family: 'Montserrat 700';
+    font-family: 'Montserrat 800';
     font-size: 18px;
     color: #3876BF;
     border-top: #E1AA74 solid 2px;
-    border-bottom: #E1AA74 solid 2px;
 }
 
 .div-class{
@@ -827,12 +837,12 @@ h1 .text-wrapper:nth-of-type(2) .text{
     padding: 10px;
     text-align: left;
     background-color: #E1AA74;
-    border: #3876BF solid 1px;
+    border: #192655 solid 1px;
     font-family: 'Montserrat 400';
     font-size: 16px;
-    color: #3876BF;
+    color: #192655;
     height: auto;
-    width: 500px;
+    width: 600px;
     display: none;
 }
 
@@ -894,11 +904,35 @@ h1 .text-wrapper:nth-of-type(2) .text{
     background: url('../img/icon/social/vkontakte-dark.png') center / cover no-repeat;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
     transition: all 1s;
+    -webkit-animation: vk 2s forwards;
+    animation: vk 2s forwards;
 }
 
 .vk:hover {
     background: url('../img/icon/social/vkontakte-light.png') center / cover no-repeat;
     box-shadow: 0px 0px 10px rgba(56, 118, 191, 0.8);
+}
+
+@keyframes vk {
+    0% {
+        margin-left: 200px;
+        opacity: 0;
+    }
+    100% {
+        margin-left: 0;
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes vk {
+    0% {
+        margin-left: 200px;
+        opacity: 0;
+    }
+    100% {
+        margin-left: 0;
+        opacity: 1;
+    }
 }
 
 .telegram {
@@ -908,11 +942,35 @@ h1 .text-wrapper:nth-of-type(2) .text{
     background: url('../img/icon/social/telegram-dark.png') center / cover no-repeat;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
     transition: all 1s;
+    -webkit-animation: telegram 2s 0.7s forwards;
+    animation: telegram 2s 0.7s forwards;
 }
 
 .telegram:hover {
     background: url('../img/icon/social/telegram-light.png') center / cover no-repeat;
     box-shadow: 0px 0px 10px rgba(56, 118, 191, 0.8);
+}
+
+@keyframes telegram {
+    0% {
+        margin-left: 200px;
+        opacity: 0;
+    }
+    100% {
+        margin-left: 0;
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes telegram {
+    0% {
+        margin-left: 200px;
+        opacity: 0;
+    }
+    100% {
+        margin-left: 0;
+        opacity: 1;
+    }
 }
 
 .whatsapp {
@@ -922,33 +980,43 @@ h1 .text-wrapper:nth-of-type(2) .text{
     background: url('../img/icon/social/whatsapp-dark.png') center / cover no-repeat;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
     transition: all 1s;
+    -webkit-animation: whatsapp 2s 1.4s forwards;
+    animation: whatsapp 2s 1.4s forwards;
 }
 
 .whatsapp:hover {
     background: url('../img/icon/social/whatsapp-light.png') center / cover no-repeat;
     box-shadow: 0px 0px 10px rgba(56, 118, 191, 0.8);
 }
+@keyframes whatsapp {
+    0% {
+        margin-left: 200px;
+        opacity: 0;
+    }
+    100% {
+        margin-left: 0;
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes whatsapp {
+    0% {
+        margin-left: 200px;
+        opacity: 0;
+    }
+    100% {
+        margin-left: 0;
+        opacity: 1;
+    }
+}
 
 .social-icon {
     margin-top: 20px;
     margin-left: 200px;
-    -webkit-animation: social 3s;
-    animation: social 3s;
+    opacity: 0;
 }
 
-@keyframes social {
-    from {
-        margin-left: 200px;
-        opacity: 0;
-    }
-}
 
-@-webkit-keyframes social {
-    from {
-        margin-left: 20rem;
-        opacity: 0;
-    }
-}
 
 
 
