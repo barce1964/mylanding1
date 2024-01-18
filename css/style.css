@@ -1113,104 +1113,37 @@ footer {
     } */
     
     .header {
-        height: 645px;
+        height: 640px;
     }
     
     .img-wrapper {
-        position: relative;
-        height: 645px;
-        width: 100%;
-        left: 0 !important;
-        top: 0 !important;
-        background:url(../img/bg/headerback.jpg) no-repeat;
-        background-size: 100% 645px !important;
+        height: 640px;
+        background-size: 100% 640px !important;
     }
     
     .overlay {
-        position: absolute;
-        height: 645px;
-        width: 100%;
-        left: 0;
-        top: 0;
-        background-image: url('../img/bg/getcorse.jpg');
-        background-size: 100% 645px !important;
-        opacity: 0.87;
+        height: 640px;
+        background-size: 100% 640px !important;
     }
     
     .txt-big {
         height: 208px;
-        margin-top: 130px;
+        margin-top: 125px;
     }
     
     h1 {
-        font-size: 52px;
-        color: #192655;
-        line-height: 1.7;
-        position: absolute;
-        text-align: center;
-        top: 250px;
-        left: 650px;
-        transform: translate(-50%, -50%);
-        text-transform: uppercase;
-        width: 900px;
-    }
-    
-    h1 em {
-      white-space: nowrap;
-    }
-    
-    .text-wrapper{
-      overflow: hidden;
-      display: block;
-    }
-    
-    .text{
-      animation: slideUp 1s forwards;
-      display: inline-block;
-      transform: translateY(100%);
-    }
-    
-    h1 .text-wrapper:nth-of-type(1) .text{
-      animation-delay: 0s;
-    }
-    
-    h1 .text-wrapper:nth-of-type(2) .text{
-      animation-delay: 0.5s;
-    }
-    
-    @keyframes slideUp {
-      0% {
-        transform: translateY(100%);
-        opacity: 0;
-      }
-      100% {
-        transform: translateY(0%);
-        opacity: 1;
-      }
+        font-size: 48px;
+        top: 245px;
+        left: 600px;
+        width: 880px;
     }
     
     .txt-offer {
-        position: absolute;
-        padding-top: 0;
-        margin-top: 0;
-        color: #192655;
-        font-family: 'Montserrat 400';
-        font-size: 18px;
-        text-transform: uppercase;
+        font-size: 17px;
     }
     
     #offer1 {
         top: 380px;
-        transform: translateY(-50%);
-        margin-left: -500px;
-        -webkit-animation-name: offer1;
-                animation-name: offer1;
-        -webkit-animation-duration: 1.5s;
-                animation-duration: 1.5s;
-        -webkit-animation-fill-mode: forwards;
-                animation-fill-mode: forwards;
-        -webkit-animation-delay: 0.3s;
-                animation-delay: 0.3s;
     }
     
     @keyframes offer1 {
@@ -1218,7 +1151,7 @@ footer {
           margin-left: -500px;
         }
         100% {
-            margin-left: 149px;
+            margin-left: 201px;
         }
     }
     
@@ -1227,22 +1160,12 @@ footer {
             margin-left: -500px;
           }
           100% {
-              margin-left: 149px;
+              margin-left: 201px;
           }  
     }
     
     #offer2 {
         top: 405px;
-        transform: translateY(-50%);
-        margin-left: -500px;
-        -webkit-animation-name: offer2;
-                animation-name: offer2;
-        -webkit-animation-duration: 1.5s;
-                animation-duration: 1.5s;
-        -webkit-animation-fill-mode: forwards;
-                animation-fill-mode: forwards;
-        -webkit-animation-delay: .6s;
-                animation-delay: .6s;
     }
     
     @keyframes offer2 {
@@ -1250,7 +1173,7 @@ footer {
           margin-left: -500px;
         }
         100% {
-            margin-left: 149px;
+            margin-left: 201px;
         }
     }
     
@@ -1259,22 +1182,12 @@ footer {
             margin-left: -500px;
           }
           100% {
-              margin-left: 149px;
+              margin-left: 201px;
           }  
     }
     
     #offer3 {
         top: 430px;
-        transform: translateY(-50%);
-        margin-left: -500px;
-        -webkit-animation-name: offer3;
-                animation-name: offer3;
-        -webkit-animation-duration: 1.5s;
-                animation-duration: 1.5s;
-        -webkit-animation-fill-mode: forwards;
-                animation-fill-mode: forwards;
-        -webkit-animation-delay: .9s;
-                animation-delay: .9s;
     }
     
     @keyframes offer3 {
@@ -1282,7 +1195,7 @@ footer {
           margin-left: -500px;
         }
         100% {
-            margin-left: 149px;
+            margin-left: 201px;
         }
     }
     
@@ -1291,22 +1204,12 @@ footer {
             margin-left: -500px;
           }
           100% {
-              margin-left: 149px;
+              margin-left: 201px;
           }  
     }
     
     #offer4 {
         top: 455px;
-        transform: translateY(-50%);
-        margin-left: -500px;
-        -webkit-animation-name: offer4;
-                animation-name: offer4;
-        -webkit-animation-duration: 1.5s;
-                animation-duration: 1.5s;
-        -webkit-animation-fill-mode: forwards;
-                animation-fill-mode: forwards;
-        -webkit-animation-delay: 1.2s;
-                animation-delay: 1.2s;
     }
     
     @keyframes offer4 {
@@ -1314,7 +1217,7 @@ footer {
           margin-left: -500px;
         }
         100% {
-            margin-left: 149px;
+            margin-left: 201px;
         }
     }
     
@@ -1323,22 +1226,12 @@ footer {
             margin-left: -500px;
           }
           100% {
-              margin-left: 149px;
+              margin-left: 201px;
           }  
     }
     
     #offer5 {
         top: 480px;
-        transform: translateY(-50%);
-        margin-left: -500px;
-        -webkit-animation-name: offer5;
-                animation-name: offer5;
-        -webkit-animation-duration: 1.5s;
-                animation-duration: 1.5s;
-        -webkit-animation-fill-mode: forwards;
-                animation-fill-mode: forwards;
-        -webkit-animation-delay: 1.5s;
-                animation-delay: 1.5s;
     }
     
     @keyframes offer5 {
@@ -1346,7 +1239,7 @@ footer {
           margin-left: -500px;
         }
         100% {
-            margin-left: 149px;
+            margin-left: 201px;
         }
     }
     
@@ -1355,24 +1248,18 @@ footer {
             margin-left: -500px;
           }
           100% {
-              margin-left: 149px;
+              margin-left: 201px;
           }  
     }
     
     .contact-link {
         margin-top: 70px;
-        margin-left: 820px;
+        margin-left: 810px;
     }
     
     .f-btn {
         margin: 10px 20px;
-        border-radius: 30px;
-        background-image: linear-gradient(45deg, #192655 0%, #E1AA74 50%, #3876BF  100%);
-        background-position: 100% 0;
-        background-size: 200% 200%;
-        font-family: 'Montserrat 600';
-        color: #F3F0CA;
-        font-size: 20px;
+        font-size: 19px;
         transition: .5s;
     }
     
@@ -1398,18 +1285,11 @@ footer {
     }
     
     .ideas {
-        position: absolute;
-        color: #3876BF;
-        font-family: 'Asylbek';
-        font-size: 72px;
+        font-size: 66px;
         top: 570px;
         transform: translateY(-50%);
-        left: 500px;
+        left: 480px;
         width: 755px;
-        white-space:nowrap;
-        overflow:hidden;
-        -webkit-animation: ideas 2s steps(50, end);
-        animation: ideas 2s steps(50, end);
     }
     
     @keyframes ideas {
