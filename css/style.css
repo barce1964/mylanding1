@@ -1019,6 +1019,40 @@ h1 .text-wrapper:nth-of-type(2) .text{
 
 
 
+footer {
+    display: flex;
+    margin-bottom: 0;
+    width: 100%;
+    height: 44px;
+    background-color: #192655;
+}
+
+.wrap-footer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 0;
+    font-family: 'Montserrat 700';
+    font-size: 18px;
+    color: #F3F0CA;
+    padding-top: 10px;
+}
+
+.footer-police {
+    display: inline;
+    margin-top: 8px;
+}
+
+.police-link {
+    font-family: 'Montserrat 500';
+    font-size: 18px;
+    color: #E1AA74;
+}
+
+
 
 
 .thin {
