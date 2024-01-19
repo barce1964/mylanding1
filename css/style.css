@@ -558,7 +558,7 @@ h1 .text-wrapper:nth-of-type(2) .text{
 
 @-webkit-keyframes about-desc {
     from {
-        margin-left: -110%;
+        margin-left: 110%;
         opacity: 0;
     }
 }
@@ -1304,36 +1304,20 @@ footer {
     
     
     .about {
-        margin: 10px 0;
+        margin: 9px 0;
         padding: 10px;
     }
     
     .header-section {
-        position: static;
-        color:#192655;
-        font-size: 48px;
-        margin: 40px auto;
-        -webkit-animation: header_s 3s;
-        animation: header_s 3s;
-    }
-    
-    @keyframes header_s {
-        from {opacity: 0;}
-    }
-    
-    @-webkit-keyframes header_s {
-        from {opacity: 0;}
+       
+        font-size: 46px;
+        margin: 38px auto;
     }
     
     .about img {
-        height: 350px;
-        width: 350px;
-        border-radius: 50%;
-        border-style: solid;
+        height: 320px;
+        width: 320px;
         border-width: 5px;
-        border-color: #192655;
-        -webkit-animation: port 5s;
-        animation: port 5s;
     }
     
     @keyframes port {
@@ -1367,22 +1351,13 @@ footer {
     }
     
     .about span {
-        font-family: 'Montserrat 500';
-        font-size: 16px;
-        display: block;
-        color: #192655;
-        position: absolute;
-        left: 120px;
+        font-size: 15px;
+        left: 60px;
     }
     
     .about .desc {
         padding: 30px;
-        border-left:4px solid #192655;
-    }
-    
-    .desc-txt {
-        -webkit-animation: about-desc 3s;
-        animation: about-desc 3s;
+        border-left: 4px;
     }
     
     @keyframes about-desc {
@@ -1394,19 +1369,18 @@ footer {
     
     @-webkit-keyframes about-desc {
         from {
-            margin-left: -110%;
+            margin-left: 110%;
             opacity: 0;
         }
     }
     
     .about .desc h3 {
-        color: #192655;
-        font-size: 36px;
+        font-size: 34px;
     }
     
     .about .desc p {
         line-height:2;
-        color:#192655;
+        font-size: 15px;
     }
     
     
