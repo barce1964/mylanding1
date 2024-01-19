@@ -1515,84 +1515,44 @@ footer {
     }
     
     .benefit-txt {
-        display: inline-block;
         width: 350px;
-        height: auto;
-        font-family: 'Montserrat 300';
-        font-size: 16px;
-        color: #192655;
-        padding: 10px;
+        font-size: 15px;
+        padding: 9px;
     }
     
     .benefit-txt-left {
-        border-radius: 20px;
-        border-style: solid;
         border-width: 5px;
-        border-color: #192655;
-        text-align: center;
         margin-left: 150px;
-        transition: all 1s;
-    }
-    
-    .benefit-txt-left:hover {
-        color: #3876BF;
-        background-color: #E1AA74;
-        transform: skewY(-10deg);
     }
     
     .benefit-txt-right {
-        border-radius: 20px;
-        border-style: solid;
         border-width: 5px;
-        border-color: #192655;
-        text-align: center;
         margin-left: 600px;
-        transition: all 1s;
-    }
-    
-    .benefit-txt-right:hover {
-        color: #3876BF;
-        background-color: #E1AA74;
-        transform: skewY(10deg);
     }
     
     .p-txt {
-        padding-top: 15px;
+        padding-top: 14px;
     }
     
     
+
+
     .skills-section {
-        margin: 0 auto;
         width: 620px;
         padding: 0 10px;
-        border-radius: 10px;
-        border:#E1AA74 solid 2px;
     }
     
     .btn-skills {
         margin: 0 auto;
-        height: 40px;
+        height: 38px;
         width: 600px;
-        cursor: pointer;
-        background-color: #F3F0CA;
-        font-family: 'Montserrat 800';
-        font-size: 18px;
-        color: #3876BF;
-        border-top: #E1AA74 solid 2px;
+        font-size: 16px;
     }
     
     .div-class{
-        margin: 0 auto;
-        padding: 10px;
-        text-align: left;
-        background-color: #E1AA74;
-        border: #192655 solid 1px;
-        font-family: 'Montserrat 400';
-        font-size: 16px;
-        color: #192655;
-        height: auto;
+        padding: 9px;
+        font-size: 15px;
         width: 600px;
-        display: none;
     }
     
     
@@ -1602,13 +1562,11 @@ footer {
     .email {
         width: 620px;
         height: 320px;
-        box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.8);
+        box-shadow: 0px 0px 28px rgba(0, 0, 0, 0.8);
         margin-bottom: 50px;
-        border-radius: 15px;
     }
     
     .sender {
-        display: inline-block;
         width: 336px;
         height: 256px;
         margin-left: 40px;
@@ -1616,11 +1574,8 @@ footer {
     }
     
     .letter {
-        display: inline-block;
         width: 240px;
         height: 320px;
-        background: url('../img/pict/letter.png') center / cover no-repeat;
-        border-radius: 15px 0 0 15px;
     }
     
     .frm-sender {
@@ -1628,38 +1583,22 @@ footer {
     }
     
     .label-frm {
-        font-family: 'Montserrat 500';
-        font-size: 18px;
-        color: #192655;
+        font-size: 16px;
     }
     
     .input-frm {
-        font-family: 'Montserrat 500';
-        font-size: 18px;
-        color: #192655;
-        background-color: #F3F0CA;
+        font-size: 16px;
         width: 240px;
-        transition: all 2s;
-    }
-    
-    .input-frm:focus {
-        background-color: #E1AA74;
     }
     
     .vk {
         width: 80px;
         height: 80px;
-        border-radius: 50%;
-        background: url('../img/icon/social/vkontakte-dark.png') center / cover no-repeat;
-        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
-        transition: all 1s;
-        -webkit-animation: vk 2s forwards;
-        animation: vk 2s forwards;
+        box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.8);
     }
     
     .vk:hover {
-        background: url('../img/icon/social/vkontakte-light.png') center / cover no-repeat;
-        box-shadow: 0px 0px 10px rgba(56, 118, 191, 0.8);
+        box-shadow: 0px 0px 9px rgba(56, 118, 191, 0.8);
     }
     
     @keyframes vk {
@@ -1687,17 +1626,11 @@ footer {
     .telegram {
         width: 80px;
         height: 80px;
-        border-radius: 50%;
-        background: url('../img/icon/social/telegram-dark.png') center / cover no-repeat;
-        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
-        transition: all 1s;
-        -webkit-animation: telegram 2s 0.7s forwards;
-        animation: telegram 2s 0.7s forwards;
+        box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.8);
     }
     
     .telegram:hover {
-        background: url('../img/icon/social/telegram-light.png') center / cover no-repeat;
-        box-shadow: 0px 0px 10px rgba(56, 118, 191, 0.8);
+        box-shadow: 0px 0px 9px rgba(56, 118, 191, 0.8);
     }
     
     @keyframes telegram {
@@ -1725,18 +1658,13 @@ footer {
     .whatsapp {
         width: 80px;
         height: 80px;
-        border-radius: 50%;
-        background: url('../img/icon/social/whatsapp-dark.png') center / cover no-repeat;
-        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
-        transition: all 1s;
-        -webkit-animation: whatsapp 2s 1.4s forwards;
-        animation: whatsapp 2s 1.4s forwards;
+        box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.8);
     }
     
     .whatsapp:hover {
-        background: url('../img/icon/social/whatsapp-light.png') center / cover no-repeat;
-        box-shadow: 0px 0px 10px rgba(56, 118, 191, 0.8);
+        box-shadow: 0px 0px 9px rgba(56, 118, 191, 0.8);
     }
+
     @keyframes whatsapp {
         0% {
             margin-left: 200px;
@@ -1769,36 +1697,21 @@ footer {
     
     
     footer {
-        display: flex;
-        margin-bottom: 0;
-        width: 100%;
-        height: 44px;
-        background-color: #192655;
-    }
-    
-    .wrap-footer {
-        display: flex;
-        justify-content: space-evenly;
+        height: 42px;
     }
     
     .copyright {
-        text-align: center;
         margin-top: 0;
-        font-family: 'Montserrat 700';
-        font-size: 18px;
-        color: #F3F0CA;
+        font-size: 16px;
         padding-top: 10px;
     }
     
     .footer-police {
-        display: inline;
         margin-top: 8px;
     }
     
     .police-link {
-        font-family: 'Montserrat 500';
-        font-size: 18px;
-        color: #E1AA74;
+        font-size: 16px;
     }
 
     
