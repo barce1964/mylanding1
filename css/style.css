@@ -747,16 +747,24 @@ h1 .text-wrapper:nth-of-type(2) .text{
 
 
 
-.txt-rem {
-    font-family: 'Montserrat 600';
-    color: #3876BF;
-}
-
 .rem-section {
     overflow-y: auto;
     overflow-x: hidden;
     height: auto;
 }
+
+.rem-section p {
+    font-family: 'Montserrat 400';
+    font-size: 16px;
+    color: #192655;
+}
+
+.txt-rem {
+    font-family: 'Montserrat 600';
+    font-size: 16px;
+    color: #3876BF;
+}
+
 
 
 
@@ -1460,9 +1468,7 @@ footer {
     .portfolio img {
          height: 200px;
          width: 300px;
-         margin: 20px;
-         border-radius: 10px;
-         transition: all 1s;
+         margin: 18px;
     }
     
     .portfolio img:hover {
@@ -1473,13 +1479,14 @@ footer {
     
     #slider {
         margin-left: 10px;
+        margin-top: -40px;
     }
     
     .slide {
-        margin-left: 160px;
-        margin-top: 30px;
-        height: 540px;
-        width: 800px;
+        margin-left: 150px;
+        margin-top: 25px;
+        height: 550px;
+        width: 700px;
     }
     
     .slide img {
@@ -1487,21 +1494,18 @@ footer {
         width: 100%;
     }
     
-    
-    
+
+
+
+    .rem-section p {
+        font-size: 15px;
+    }
     
     .txt-rem {
-        font-family: 'Montserrat 600';
-        color: #3876BF;
+        font-size: 15px;
     }
-    
-    .rem-section {
-        overflow-y: auto;
-        overflow-x: hidden;
-        height: auto;
-    }
-    
-    
+
+
     
     
     .benefit-section {
