@@ -53,15 +53,15 @@ function showTabContent(b) {
         tab[b].classList.add('info-header-tab-active-srv');
         var h;
         if (b == 0) {
-            h = '100vh';
+            h = '100%';
         } else if (b == 1) {
-            h = '68vh';
+            h = '68%';
         } else if (b == 2) {
-            h = '81vh';
+            h = '81%';
         } else if (b == 3) {
-            h = '72vh';
+            h = '72%';
         } else {
-            h = '81vh';
+            h = '81%';
         }
         $(".info-section").animate({height: h}, 1500 );
     }
