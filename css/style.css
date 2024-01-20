@@ -1065,32 +1065,30 @@ footer {
 
 
 .thin {
-    margin-left: 4em;
-    margin-top: 2em;
+    margin-left: 70px;
+    margin-top: 40px;
     font-family: 'Montserrat 400';
     font-size: 18px;
 }
 
 .bold {
-    position: relative;
-    margin-top: 2em;
-    margin-left: -1.5em;
+    margin: -130px auto;
     font-family: 'Montserrat 700';
     font-size: 20px;
 }
 
 .small-bold {
-    margin-top: 2em;
-    margin-left: 3.5em;
-    width: 45em;
+    margin-top: 40px;
+    margin-left: 70px;
+    width: 800px;
     font-family: 'Montserrat 700';
     font-size: 18px;
 }
 
 .thin-par {
-    margin-left: 3.5em;
-    margin-top: 1em;
-    width: 45em;
+    margin-left: 70px;
+    margin-top: 10px;
+    width: 800px;
     font-family: 'Montserrat 400';
     font-size: 18px;
 }
@@ -1708,30 +1706,29 @@ footer {
     
     
     .thin {
-        margin-left: 4em;
-        margin-top: 2em;
+        margin-left: 70px;
+        margin-top: 40px;
         font-size: 17px;
     }
     
     .bold {
-        margin-top: 2em;
-        margin-left: 2.5em;
+        margin: -130px auto;
         font-size: 19px;
     }
     
     .small-bold {
-        margin-top: 2em;
-        margin-left: 3.5em;
-        width: 45em;
+        margin-top: 40px;
+        margin-left: 70px;
+        width: 800px;
         font-size: 17px;
     }
     
     .thin-par {
-        margin-left: 3.5em;
-        margin-top: 1em;
-        width: 45em;
+        margin-left: 70px;
+        margin-top: 10px;
+        width: 800px;
         font-size: 17px;
-    }
+    }    
 }
 
 @media ( max-width: 992px ) {
@@ -2098,9 +2095,9 @@ footer {
     }
     
     .portfolio img {
-         height: 133px;
-         width: 200px;
-         margin: 14px;
+         height: 167px;
+         width: 250px;
+         margin-left: 14px;
     }
     
     /* .portfolio img:hover {
@@ -2113,12 +2110,12 @@ footer {
     
     
     #slider {
-        margin-left: 10px;
+        margin-left: 0;
         margin-top: -40px;
     }
     
     .slide {
-        margin-left: 150px;
+        margin-left: 70px;
         margin-top: 25px;
         height: 550px;
         width: 700px;
@@ -2133,11 +2130,11 @@ footer {
 
 
     .rem-section p {
-        font-size: 15px;
+        font-size: 14px;
     }
     
     .txt-rem {
-        font-size: 15px;
+        font-size: 14px;
     }
 
 
@@ -2150,19 +2147,19 @@ footer {
     }
     
     .benefit-txt {
-        width: 350px;
-        font-size: 15px;
-        padding: 9px;
+        width: 300px;
+        font-size: 14px;
+        padding: 8px;
     }
     
     .benefit-txt-left {
-        border-width: 5px;
-        margin-left: 150px;
+        border-width: 4px;
+        margin-left: 130px;
     }
     
     .benefit-txt-right {
         border-width: 5px;
-        margin-left: 600px;
+        margin-left: 490px;
     }
     
     .p-txt {
@@ -2173,21 +2170,21 @@ footer {
 
 
     .skills-section {
-        width: 620px;
+        width: 590px;
         padding: 0 10px;
     }
     
     .btn-skills {
         margin: 0 auto;
-        height: 38px;
-        width: 600px;
-        font-size: 16px;
+        height: 34px;
+        width: 570px;
+        font-size: 15px;
     }
     
     .div-class{
-        padding: 9px;
-        font-size: 15px;
-        width: 600px;
+        padding: 8px;
+        font-size: 14px;
+        width: 550px;
     }
     
     
@@ -2195,50 +2192,51 @@ footer {
     
     
     .email {
-        width: 620px;
-        height: 320px;
-        box-shadow: 0px 0px 28px rgba(0, 0, 0, 0.8);
+        width: 580px;
+        height: 299px;
+        box-shadow: 0px 0px 27px rgba(0, 0, 0, 0.8);
+        margin-left: 20px;
         margin-bottom: 50px;
     }
     
     .sender {
-        width: 336px;
-        height: 256px;
-        margin-left: 40px;
-        margin-bottom: 40px;
+        width: 300px;
+        height: 229px;
+        margin-left: 30px;
+        margin-bottom: 30px;
     }
     
     .letter {
-        width: 240px;
-        height: 320px;
+        width: 224px;
+        height: 299px;
     }
     
     .frm-sender {
-        margin: 50px auto;
+        margin: 30px auto;
     }
     
     .label-frm {
-        font-size: 16px;
+        font-size: 15px;
     }
     
     .input-frm {
-        font-size: 16px;
+        font-size: 15px;
         width: 240px;
     }
     
     .vk {
-        width: 80px;
-        height: 80px;
-        box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.8);
+        width: 70px;
+        height: 70px;
+        box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.8);
     }
     
     .vk:hover {
-        box-shadow: 0px 0px 9px rgba(56, 118, 191, 0.8);
+        box-shadow: 0px 0px 8px rgba(56, 118, 191, 0.8);
     }
     
     @keyframes vk {
         0% {
-            margin-left: 200px;
+            margin-left: 150px;
             opacity: 0;
         }
         100% {
@@ -2249,7 +2247,7 @@ footer {
     
     @-webkit-keyframes vk {
         0% {
-            margin-left: 200px;
+            margin-left: 150px;
             opacity: 0;
         }
         100% {
@@ -2259,18 +2257,18 @@ footer {
     }
     
     .telegram {
-        width: 80px;
-        height: 80px;
-        box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.8);
+        width: 70px;
+        height: 70px;
+        box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.8);
     }
     
     .telegram:hover {
-        box-shadow: 0px 0px 9px rgba(56, 118, 191, 0.8);
+        box-shadow: 0px 0px 8px rgba(56, 118, 191, 0.8);
     }
     
     @keyframes telegram {
         0% {
-            margin-left: 200px;
+            margin-left: 150px;
             opacity: 0;
         }
         100% {
@@ -2281,7 +2279,7 @@ footer {
     
     @-webkit-keyframes telegram {
         0% {
-            margin-left: 200px;
+            margin-left: 150px;
             opacity: 0;
         }
         100% {
@@ -2291,18 +2289,18 @@ footer {
     }
     
     .whatsapp {
-        width: 80px;
-        height: 80px;
-        box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.8);
+        width: 70px;
+        height: 70px;
+        box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.8);
     }
     
     .whatsapp:hover {
-        box-shadow: 0px 0px 9px rgba(56, 118, 191, 0.8);
+        box-shadow: 0px 0px 8px rgba(56, 118, 191, 0.8);
     }
 
     @keyframes whatsapp {
         0% {
-            margin-left: 200px;
+            margin-left: 150px;
             opacity: 0;
         }
         100% {
@@ -2313,7 +2311,7 @@ footer {
     
     @-webkit-keyframes whatsapp {
         0% {
-            margin-left: 200px;
+            margin-left: 150px;
             opacity: 0;
         }
         100% {
@@ -2332,13 +2330,13 @@ footer {
     
     
     footer {
-        height: 42px;
+        height: 38px;
     }
     
     .copyright {
         margin-top: 0;
-        font-size: 16px;
-        padding-top: 10px;
+        font-size: 15px;
+        padding-top: 9px;
     }
     
     .footer-police {
@@ -2346,37 +2344,41 @@ footer {
     }
     
     .police-link {
-        font-size: 16px;
+        font-size: 15px;
     }
 
 
 
 
     .thin {
-        margin-left: 4em;
-        margin-top: 2em;
-        font-size: 17px;
+        margin-left: 70px;
+        margin-top: 40px;
+        font-family: 'Montserrat 400';
+        font-size: 16px;
     }
     
     .bold {
-        margin-top: 2em;
-        margin-left: 8.3em;
+        margin: -100px auto;
+        font-family: 'Montserrat 700';
         font-size: 18px;
     }
     
     .small-bold {
-        margin-top: 2em;
-        margin-left: 4em;
-        width: 40em;
+        margin-top: 50px;
+        margin-left: 70px;
+        width: 800px;
+        font-family: 'Montserrat 700';
         font-size: 16px;
     }
     
     .thin-par {
-        margin-left: 4em;
-        margin-top: 1em;
-        width: 40em;
+        margin-left: 70px;
+        margin-top: 10px;
+        width: 800px;
+        font-family: 'Montserrat 400';
         font-size: 16px;
     }
+    
 }
 
 @media ( max-width: 768px ) {
