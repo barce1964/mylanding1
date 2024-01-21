@@ -53,17 +53,18 @@ function showTabContent(b) {
         tab[b].classList.add('info-header-tab-active-srv');
         var h;
         if (b == 0) {
-            h = '100%';
+            h = '100vh';
         } else if (b == 1) {
-            h = '68%';
+            h = '68vh';
         } else if (b == 2) {
-            h = '81%';
+            h = '81vh';
         } else if (b == 3) {
-            h = '72%';
+            h = '72vh';
         } else {
-            h = '81%';
+            h = '81vh';
         }
-        $(".info-section").animate({height: h}, 1500 );
+        console.log(h);
+        $(".info-section").animate({height: h}, 1000 );
     }
 }
 
@@ -198,10 +199,10 @@ sec.addEventListener('click', function(event) {
     for(var i = 0; i < bSkills.length; i++) {
         if (target == bSkills[i]) {
             if (k[i]) {
-                $('#txt' + i).slideUp(1500);
+                $('#txt' + i).slideUp(1000);
                 k[i] = false;
             } else {
-                $('#txt' + i).slideDown(1500);
+                $('#txt' + i).slideDown(1000);
                 k[i] = true;
                 for(var j = 0; j < bSkills.length; j++) {
                     if (i != j) {
@@ -210,7 +211,7 @@ sec.addEventListener('click', function(event) {
                 }
             }
         } else {
-            $('#txt' + i).slideUp(1500);
+            $('#txt' + i).slideUp(1000);
         }
     }
 });
