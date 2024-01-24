@@ -12,33 +12,35 @@
         <title>Течнический специалист GetCourse</title>
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg fixed-top ">
-            <a class="navbar-brand" data-value="home" href="#"><img class="nav-logo" src="img/logo/logo_small.png" alt="logo"></a>
-            <div class="navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-4 menu">
-                    <li class="nav-item menu-item">
-                        <a class="nav-link" data-value="about" href="#">Обо мне</a>
+        <nav class="wrap_menu">
+            <div class="wraplogo" data-value="home" id="wraplogo">
+                <img class="logo" src="img/logo/logo_small.png" alt="logo">
+            </div>
+            <div class="line-menu">
+                <ul class="menu">
+                    <li class="menu-item">
+                        <a class="menu-link" data-value="about" href="#">Обо мне</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" data-value="services" href="#">Услуги</a>
+                    <li class="menu-item">
+                        <a class="menu-link" data-value="services" href="#">Услуги</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" data-value="portfolio" href="#">Портфолио</a>
+                    <li class="menu-item">
+                        <a class="menu-link" data-value="portfolio" href="#">Портфолио</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" data-value="cert" href="#">Достижения</a>
+                    <li class="menu-item">
+                        <a class="menu-link" data-value="cert" href="#">Достижения</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" data-value="rem" href="#">Отзывы</a>
+                    <li class="menu-item">
+                        <a class="menu-link" data-value="rem" href="#">Отзывы</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" data-value="benefit" href="#">Ваша выгода</a>
+                    <li class="menu-item">
+                        <a class="menu-link" data-value="benefit" href="#">Ваша выгода</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" data-value="skills" href="#">Навыки</a>
+                    <li class="menu-item">
+                        <a class="menu-link" data-value="skills" href="#">Навыки</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" data-value="contacts" href="#">Контакты</a>
+                    <li class="menu-item">
+                        <a class="menu-link" data-value="contacts" href="#">Контакты</a>
                     </li>
                 </ul>
                 <div class="hamburger">
@@ -104,16 +106,16 @@
 
         <div class="about" id="about">
             <div class="container">
-              <h2 class="text-center header-section wow">Обо мне</h2>
-                <div class="row">
+              <h2 class="text-center header-section">Обо мне</h2>
+                <div class="wrap-about">
                     <!--левая часть-->
-                    <div class="col-lg-4 col-md-4 col-sm-12 about-left">
-                        <img align="center" src="img/people/IMG_0339_1.jpg" class="wow" style="width: 350px; height: 350px;">
+                    <div class="about-left">
+                        <img align="center" src="img/people/IMG_0339.jpg" class="" style="width: 350px; height: 350px;">
                         <span class="text-justify">Технический специалист по Getcourse</span>
                     </div>
                     <!--правая часть-->
-                    <div class="col-lg-8 col-md-8 col-sm-12 desc">
-                        <div class="col-lg-10 col-md-10 col-sm-12 desc-txt wow">
+                    <div class="about-right">
+                        <div class="desc-txt">
                             <h3>Александр Тараев</h3>
                             <p>
                                 Давайте познакомимся. Меня зовут Александр. Я дипломированный
@@ -135,8 +137,8 @@
 
         <div class="panel serv" id="services">
             <div class="container">
-                <h2 class="text-center header-section wow">Услуги</h2>
-                <div class="info-srv info-section col-lg-12 col-md-12 col-sm-12">
+                <h2 class="text-center header-section">Услуги</h2>
+                <div class="info-srv info-section">
                     <div class="info-header-srv">
                         <div class="info-header-tab-srv info-header-tab-active-srv">Настройка школы</div>
                         <div class="info-header-tab-srv">Стилизация школы</div>
@@ -223,23 +225,23 @@
         </div>
 
         <div class="portfolio" id="portfolio">
-            <h2 class="text-center header-section wow">Портфолио</h2>
+            <h2 class="text-center header-section">Портфолио</h2>
             <div class="container">
                 <div class="fon-port portfolio-section">
                     <div class="row portfolio-fon">
-                        <div class="col-lg-4 col-md-4 col-sm-12">
+                        <div class="col-lg-4 col-md-4 col-sm-12 portfolio-img">
                             <a href="https://gc-alex.ru/lpwebinar" target="_blank"><img align="center" src="img/Portfolio/2.jpg" class="img-fluid" style="width: 300px; height: 200px;" alt="Создание лэндингов"></a>
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-12">
+                        <div class="col-lg-4 col-md-4 col-sm-12 portfolio-img">
                             <a href="https://gc-alex.ru/building" target="_blank"><img align="center" src="img/Portfolio/3.jpg" class="img-fluid" style="width: 300px; height: 200px;" alt="Рынок недвижимости"></a>
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-12">
+                        <div class="col-lg-4 col-md-4 col-sm-12 portfolio-img">
                             <a href="https://astrolastochka.ru/products" target="_blank"><img align="center" src="img/Portfolio/4.jpg" class="img-fluid" style="width: 300px; height: 200px;" alt="Школа астрологии"></a>
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-12">
+                        <div class="col-lg-4 col-md-4 col-sm-12 portfolio-img">
                             <a href="https://gc-alex.ru/cisco" target="_blank"><img align="center" src="img/Portfolio/cisco.jpg" class="img-fluid" style="width: 300px; height: 200px;" alt="Cisco"></a>
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-12">
+                        <div class="col-lg-4 col-md-4 col-sm-12 portfolio-img">
                             <a href="https://kprutkov.ru" target="_blank"><img align="center" src="img/Portfolio/prutkov.png" class="img-fluid" style="width: 300px; height: 200px;" alt="Путешествтия"></a>
                         </div>
                     </div>
@@ -248,7 +250,7 @@
         </div>
 
         <div class="cert" id="cert">
-            <h2 class="text-center header-section wow">Достижения</h2>
+            <h2 class="text-center header-section">Достижения</h2>
             <div class="container">
                 <div class="row cert-section">
                     <div class="owl-carousel owl-theme" id="slider">
@@ -264,7 +266,7 @@
         </div>
 
         <div class="rem" id="rem">
-            <h2 class="text-center header-section rem-header wow">Отзывы</h2>
+            <h2 class="text-center header-section rem-header">Отзывы</h2>
             <div class="container">
                 <div class="rem-section">
                     <div class="row">
@@ -290,7 +292,7 @@
         </div>
 
         <div class="benefit" id="benefit">
-            <h2 class="text-center header-section wow">Почему стоит со мной работать</h2>
+            <h2 class="text-center header-section">Почему стоит со мной работать</h2>
             <div class="container">
                 <div class="benefit-section">
                     <div class="row">
@@ -351,7 +353,7 @@
         </div>
 
         <div class="skills" id="skills">
-            <h2 class="text-center header-section wow">Мои ключевые навыки</h2>
+            <h2 class="text-center header-section">Мои ключевые навыки</h2>
             <div class="container">
                 <div class="skills-section">
                     <div id="btn0" class="btn-skills">Программирование</div>
@@ -411,7 +413,7 @@
 
         <div class="contacts" id="contacts">
             <div class="container">
-              <h2 class="text-center header-section wow">Контакты</h2>
+              <h2 class="text-center header-section">Контакты</h2>
                 <div class="wrapper-contact">
                     <!--левая часть-->
                     <div class="wrapper-mail">
@@ -453,26 +455,25 @@
             </div>
         </div>
 
-        <!-- <footer>
+        <footer>
             <div class="container">
-                <div class="wrap-footer row">
-                    <div class="col-lg-4 col-md-4 col-sm-4 footer-police">
+                <div class="wrap-footer">
+                    <div class="footer-police">
                         <a href="/police/" target="_blank" class="police-link">
                             Политика конфедициальности
                         </a>
                     </div>
-                    <div class="copyright col-lg-8 col-md-8 col-sm-8">
+                    <div class="copyright">
                         Copyright &copy; <script>document.write(new Date().getFullYear());</script>. All rights reserved. Alexander Tarayev.
                     </div>
                 </div>
             </div>
-        </footer> -->
+        </footer>
 
         <script type="text/javascript" src="js/jquery-3.7.1.min.js"></script>
         <script type="text/javascript" src="js/bootstrap.min.js"></script>
         <script src="js/owl.carousel.min.js"></script>
         <script src="js/wow.min.js"></script>
-        <!-- <script src="js/lib/nodemailer.js"></script> -->
         <script type="text/javascript" src='js/main.js'></script>
     </body>
 </html>

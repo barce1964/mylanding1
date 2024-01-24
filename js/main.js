@@ -1,14 +1,19 @@
 $(document).ready(function(){
     $('.header').height($(window).height());
    
-    $(".navbar a").click(function(){
+    $(".menu-link").click(function(){
         $("body,html").animate({
             scrollTop:$("#" + $(this).data('value')).offset().top
         },1000)
     })
    
+    $("#wraplogo").click(function(){
+        $("body,html").animate({
+            scrollTop:$("#" + $(this).data('value')).offset().top
+        },1000)
+    })
+
     $(".contact-link button").click(function(){
-        console.log('test');
         $("body,html").animate({
             scrollTop:$("#" + $(this).data('value')).offset().top
         },1000)
@@ -16,7 +21,13 @@ $(document).ready(function(){
 
 })
 
-new WOW().init();
+wow = new WOW({
+    boxClass: 'wow',
+    offset: 0,
+    mobile: true,
+    live: true
+})
+wow.init();
 
 const menu = document.querySelector('.menu'),
 menuItem = document.querySelectorAll('.menu-item'),
@@ -63,7 +74,6 @@ function showTabContent(b) {
         } else {
             h = '81vh';
         }
-        console.log(h);
         $(".info-section").animate({height: h}, 1000 );
     }
 }
